@@ -1,0 +1,74 @@
+body {
+    width: 100vw
+}
+
+h2 :after {
+    display: block;
+    height: 2px;
+    background-color: #05cdfe;
+    width: 50px;
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 6px;
+    z-index: 1;
+}
+
+body>header>div>div>div:nth-child(2)>ul>li:nth-child(2)>a {
+    color: black;
+}
+
+.imhearder {
+    background-image: linear-gradient(rgba(41, 208, 108, 0.3), rgba(11, 132, 253, 0.6)), url(./imagens/header.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imhearder h2 {
+    color: white;
+    font-size: 4rem;
+}
+
+.imhearder h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+.imhearder button.btn.btn-light.btn-lg {
+    color: #63bc63;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+#texbutao {
+    padding-top: 10rem;
+    padding-left: 10rem;
+}
+/*the cards with img */
+
+#cards {
+    background-color: rgb(162, 255, 208);
+    background-size: 80vh;
+    padding-bottom: 7rem;
+}
+
+
+#cards div {
+    text-align: center;
+}
+
+/* Clientes */
+
+#clientes {
+
+    background-image: linear-gradient(rgba(41, 208, 108, 0.3), rgba(88, 132, 185, 0.6)), url(./imagens/the-paysage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: rgb(46, 43, 43);
+    height: 5rem;
+}
